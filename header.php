@@ -1,4 +1,12 @@
-<html>
+<?php include 'database.php' ?>
+
+<?php
+    ini_set('display_errors', 1);
+    ini_set('display_startup_errors', 1);
+    error_reporting(E_ALL);
+    include("database.php"); 
+ 
+?>
 <header>
     <div class="blog-masthead">
         <div class="container">
@@ -11,7 +19,6 @@
             </nav>
         </div>
     </div>
-
     <div class="blog-header">
         <div class="container">
             <h1 class="blog-title">The Bootstrap Blog</h1>
@@ -19,4 +26,3 @@
         </div>
     </div>
 </header>
-</html>
