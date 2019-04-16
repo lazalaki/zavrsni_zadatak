@@ -18,3 +18,12 @@ a {
 a:hover{
     color: #b34848;
 }
+
+.blog-post-title:hoover {
+    text-decoration: underline;
+    text-decoration-color: #b34848;
+}
+
+.hide {
+    display: none;
+}
