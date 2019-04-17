@@ -27,3 +27,7 @@ a:hover{
 .hide {
     display: none;
 }
+
+.row {
+    display: flex;
+}

@@ -1,4 +1,6 @@
 <!doctype html>
+
+
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -17,7 +19,9 @@
 <?php include 'header.php' ?>
 <main role="main" class="container">
     <div class="row">
+    <div>
         <?php include 'posts.php' ?>
+    </div>  
         <?php include 'sidebar.php' ?>
     </div><!-- /.row -->
 </main><!-- /.container -->
